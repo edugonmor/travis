@@ -12,12 +12,11 @@ Create a virtual environment and install the requirements
 
     $ python3 -m venv ./venv
     $ source ./venv/bin/activate
-    $ pip install -r requirements.txt
-
+    $ pip3 install -r requirements.txt
 
 Get the local database ready
 
-    $ python init_db.py
+    $ python3 init_db.py
 
 Start the development server
 
